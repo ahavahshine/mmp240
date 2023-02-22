@@ -1,7 +1,7 @@
 
 
 body { 
-    
+   
     width:700px;
     background-color:beige; 
     border: dotted 8px pink; 
@@ -11,9 +11,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 1em; 
-    border-radius: 20px;
-                 
-}
+    border-radius: 20px;}
  
 
 
