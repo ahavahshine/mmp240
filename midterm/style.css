@@ -1,0 +1,134 @@
+
+*{ margin:0; 
+    padding:0; 
+    border:none; 
+
+
+}
+
+
+
+
+
+body{ 
+   background-color:rgb(171, 171, 171);
+
+}
+
+#wrapper{ 
+
+       max-width: 980px; 
+       Background-color: rgb(255, 255, 255); 
+       margin-right: auto;
+       margin-left: auto; 
+       text-align:bottom; 
+       
+    
+    }  
+
+
+    p, h1, h2, h3{ margin-bottom:1em;} 
+
+header{  
+
+    background:linear-gradient(90deg, rgba(55,111,195,1) 9%, rgba(55,111,195,0.6797093837535014) 52%, rgba(55,111,195,0) 65%), 
+    url("images/heroesbluelogo.png"), no-repeat, center right, 70%, #ffffff;
+   
+    padding-bottom: 2em; 
+
+    
+    /* background: 
+                url("images/heroesbluelogo.png") no-repeat center right/95%,
+                #100f0f;
+    text-align: center; 
+    */
+}  
+
+
+
+header p{ 
+
+    width: 30% ; 
+    text-align: center ; 
+    margin-bottom:2em; 
+    color: rgb(18, 18, 18);}
+
+
+.button { 
+    border: solid 1px white;    
+    padding: 10px; 
+    padding-left: 1em;
+    text-align: left; 
+    border-radius: 5px; 
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+    display: block; 
+    width: 4em; 
+    text-align: center; 
+    margin-left: 4em; 
+    margin-top: auto; 
+    margin-bottom: auto; 
+  
+
+}  
+
+.play {
+
+text-align:center; 
+background: url("images/play.svg") no-repeat center left;
+background-position-x: 12px; 
+background-position-y: center; 
+background-size: 12px; 
+margin-left: 30px;
+
+
+}
+
+
+
+
+
+
+
+nav li{ 
+
+    display: inline-block;
+    margin-right: 2em; 
+    padding-right:2em;
+    padding-left:0.7em; 
+    border-right: solid 1px white; 
+
+     
+}
+
+
+Nav {  background-color: blue; 
+          padding: 0.5em; 
+          padding-left: 3em; 
+          margin-bottom:2em; 
+        
+        
+        }
+
+
+
+
+
+
+
+
+  Nav a { 
+    color: rgb(255, 255, 255); 
+    text-decoration: none; } 
+
+    Nav a:hover{ text-decoration: underline;
+
+
+
+    }
+
+
+
+
+
+
