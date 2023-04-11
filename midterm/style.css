@@ -11,7 +11,8 @@
 
 
 body{ 
-   background-color:rgb(171, 171, 171);
+   background-color:rgb(0, 0, 0);
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 
 }
 
@@ -76,9 +77,9 @@ header p{
 
 text-align:center; 
 background: url("images/play.svg") no-repeat center left;
-background-position-x: 12px; 
+background-position-x: 13px; 
 background-position-y: center; 
-background-size: 12px; 
+background-size: 8px; 
 margin-left: 30px;
 
 
@@ -114,9 +115,6 @@ Nav {  background-color: blue;
 
 
 
-
-
-
   Nav a { 
     color: rgb(255, 255, 255); 
     text-decoration: none; } 
@@ -124,11 +122,73 @@ Nav {  background-color: blue;
     Nav a:hover{ text-decoration: underline;
 
 
+    }
 
+Main{ padding:0 3em;  
+
+
+}
+
+
+
+    .col{ float: left;
+          width: 45%; 
+          margin-right: 2em; 
+        
     }
 
 
+footer{ clear:both; 
+     margin-left:3em;
+
+}
+
+.episodes { 
+
+    display: flex; 
+    flex-wrap: wrap; 
+
+}
+
+.card{ 
+    border: solid 1px #ccc; 
+    border-radius: 10px;  
+    width: 30%; 
+  margin-bottom:2em; 
+  margin-right:1em; 
+  flex: 0 0 auto; 
+
+}  
 
 
+.card:hover{ 
+box-shadow: 10px 5px 10px #ccc;
+
+}
+
+.card img { width: 100%; 
+ border-radius: 10px 10px 0 0 ;
+
+
+}
+
+.card p, .card h4 { 
+    margin:0.7em; 
+
+} 
+
+.invisible { 
+    visibility: hidden;
+}
+
+@media (max-width:540px) { 
+
+    .episodes{ flex-direction: column;
+
+
+    }
+
+    .card{ width:100%; }
+}
 
 
