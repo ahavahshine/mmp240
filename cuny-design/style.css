@@ -45,7 +45,10 @@ font-style:normal;
 font-weight: 900; 
 font-size:20px; 
 line-height: 23px 
-text-transform: uppercase; }
+text-transform: uppercase;
+color:royalblue; } 
+
+/* h1, title { color:royalblue;} */
 
 .top-nav{ 
 text-align: right; }
